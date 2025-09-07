@@ -53,8 +53,7 @@ Nesta fase, descobrimos o fator mais crítico do dataset: a **influência domina
 -   **Distribuição Bimodal:** A variável `Yield` possui dois grupos distintos: um de baixo rendimento e um de altíssimo rendimento.
 -   **A Causa da Separação:** O gráfico abaixo revelou que a cultura **`Oil palm fruit`** tem um rendimento ordens de magnitude maior que as demais, explicando a distribuição bimodal.
 
-![Boxplot por Cultura](assets/boxplot_cultura.png) 
-*(Opcional: tire um print do seu gráfico e adicione na pasta `assets`)*
+![Boxplot por Cultura](assets/boxplot_cultura.jpeg) 
 
 ### 2. Clusterização com K-Means
 
@@ -63,8 +62,7 @@ Para validar a descoberta da EDA, aplicamos o K-Means para ver se um algoritmo n
 -   **Método do Cotovelo:** O método sugeriu a existência de 2 a 4 clusters como ideais.
 -   **Resultado (k=4):** O algoritmo conseguiu, com sucesso, **isolar a `Oil palm fruit` em seu próprio cluster**, confirmando que ela representa uma "tendência" matematicamente distinta das outras culturas.
 
-![Visualização dos Clusters](assets/clusters_scatterplot.png)
-*(Opcional: tire um print do seu gráfico e adicione na pasta `assets`)*
+![Visualização dos Clusters](assets/clusters_scatterplot.jpeg)
 
 ### 3. Modelagem Preditiva (Regressão)
 
@@ -78,8 +76,7 @@ A fase final consistiu em treinar 5 modelos para prever o `Yield`.
 
 O modelo de Floresta Aleatória foi o vencedor, alcançando o maior **R² Score de 0.9938**, o que significa que ele explica **99.38%** da variação no rendimento da safra.
 
-![Tabela de Resultados](assets/resultados_modelos.png)
-*(Opcional: tire um print da sua tabela e adicione na pasta `assets`)*
+![Tabela de Resultados](assets/resultados_modelos.jpeg)
 
 ---
 
