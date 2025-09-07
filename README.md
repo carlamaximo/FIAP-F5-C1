@@ -102,7 +102,7 @@ Para replicar esta análise, siga os passos:
     -   Navegue até a pasta do projeto.
     -   Execute o comando `jupyter notebook`.
 4.  **Execute o Notebook:**
-    -   Abra o arquivo `.ipynb` no seu navegador.
+    -   Abra o arquivo `.[ipynb](https://github.com/carlamaximo/FIAP-F5-C1/blob/main/CarlaMaximo_rm564845_pbl_fase5.ipynb)` no seu navegador.
     -   Execute as células sequencialmente para ver todo o processo.
 
 ---
