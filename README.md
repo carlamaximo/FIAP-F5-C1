@@ -31,7 +31,16 @@ Grupo 25
 - <a href="https://www.linkedin.com/in/andregodoichiovato/">André Godoi Chiovato</a>
 
 ## 📜 Descrição
----
+
+Este projeto foi desenvolvido para a empresa fictícia FarmTech Solutions, com o objetivo de analisar dados de uma fazenda de médio porte. Utilizando um dataset com informações sobre clima, solo e tipo de cultura (`crop_yield.csv`), aplicamos técnicas de Ciência de Dados e Machine Learning para extrair insights valiosos e construir modelos preditivos.
+
+## 🎯 Objetivo do Projeto
+
+A meta principal foi desenvolver uma solução de ponta a ponta, que inclui:
+
+1.  **Análise Exploratória de Dados (EDA):** Para entender a estrutura dos dados, identificar padrões e visualizar as relações entre as variáveis.
+2.  **Clusterização Não Supervisionada:** Para encontrar tendências e cenários de produção distintos (outliers) de forma automática, utilizando o algoritmo K-Means.
+3.  **Modelagem Preditiva (Regressão):** Para construir e avaliar cinco modelos de Machine Learning diferentes, com o objetivo de prever o rendimento da safra (`Yield`) com base nas condições fornecidas.
 
 ## 🛠️ Tecnologias Utilizadas
 
