@@ -50,8 +50,6 @@ A meta principal foi desenvolver uma solução de ponta a ponta, que inclui:
 -   **Machine Learning:** Scikit-learn
 -   **Ambiente:** Jupyter Notebook (via Anaconda)
 
----
-
 ## 🚀 Etapas do Projeto e Principais Descobertas
 
 ### 1. Análise Exploratória de Dados (EDA)
@@ -114,5 +112,3 @@ Para replicar esta análise, siga os passos:
 Confira a apresentação do projeto, com a explicação detalhada de cada etapa e dos resultados obtidos.
 
 *   **➡️ [Link para o vídeo (YouTube)]([URL_DO_SEU_VIDEO_AQUI])**
-
-*(Lembre-se de postar o vídeo como "Não listado" e colar o link aqui)*
