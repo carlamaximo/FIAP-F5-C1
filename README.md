@@ -114,3 +114,75 @@ Confira a apresentação do projeto, com a explicação detalhada de cada etapa 
 *   **➡️ [Link para o vídeo (YouTube)]([https://www.youtube.com/watch?v=HJHWRCWvx00])**
 
 
+---
+
+
+# Entrega 2: Estimativa de Custos na Nuvem AWS
+
+
+Esta seção detalha a segunda entrega do projeto, focada no planejamento estratégico e na estimativa de custos para hospedar a solução de Machine Learning na nuvem da Amazon Web Services (AWS).
+
+
+## 1. Comparativo de Custos: N. Virgínia (EUA) vs. São Paulo (BR)
+
+
+Utilizando a Calculadora de Preços da AWS, realizamos uma estimativa de custos mensais para hospedar nossa API e o modelo de Machine Learning em uma instância EC2 Linux. A cotação foi feita para uma utilização de 100% On-Demand, conforme solicitado.
+
+
+### Configuração da Máquina Virtual (EC2)
+-   **vCPUs:** 2
+-   **Memória:** 1 GiB (utilizamos a instância `t3.small` com 2 GiB para atender ao requisito)
+-   **Rede:** Até 5 Gigabit
+-   **Armazenamento (HD):** 50 GB (SSD de uso geral, `gp3`)
+
+
+### Tabela de Custos Estimados (Mensal)
+
+
+| Serviço                          | Custo em N. Virgínia (USD) | Custo em São Paulo (USD) |
+| -------------------------------- | -------------------------- | ------------------------ |
+| Instância EC2 (`t3.small`)       | 15.18 USD                  | **24.53 USD**            |
+| Volume EBS (50GB)                | 4.00 USD                   | **7.60 USD**             |
+| Transferência de Dados           | 0.00 USD                   | **0.00 USD**             |
+| **Custo Total Mensal Estimado**  | **19.18 USD**              | **32.13 USD**            |
+
+
+**Conclusão de Custo:** A análise mostra que a hospedagem na região de **Norte da Virgínia (EUA) é significativamente mais barata** do que na região de São Paulo (BR).
+
+
+![Print da Calculadora AWS](assets/calculadora_aws.jpeg)
+
+
+## 2. Análise da Escolha: Custo vs. Latência e Legislação
+
+
+A segunda questão pedia para escolher a melhor opção considerando duas novas restrições:
+1.  A necessidade de **acessar rapidamente os dados** dos sensores.
+2.  **Restrições legais** para armazenamento de dados no exterior.
+
+
+### Justificativa da Escolha
+
+
+Apesar do custo mais elevado, a escolha correta para este cenário de negócios é, sem dúvida, a região de **São Paulo (BR)**. A justificativa se baseia em dois pilares críticos que superam a economia de custos:
+
+
+*   **Latência:** A latência é o tempo de resposta entre o envio e o recebimento de dados. Como nossos sensores e a aplicação principal estariam no Brasil, hospedar o servidor em São Paulo minimiza drasticamente a latência. Isso garante o "acesso rápido" exigido, o que é fundamental para uma aplicação que pode precisar tomar decisões em tempo real, como um sistema de irrigação inteligente. Hospedar nos EUA introduziria um atraso significativo em cada comunicação.
+
+
+*   **Soberania e Conformidade Legal (LGPD):** Esta é a restrição mais importante. Leis de proteção de dados, como a Lei Geral de Proteção de Dados (LGPD) no Brasil, impõem regras rígidas sobre a coleta, o armazenamento e o processamento de dados de cidadãos brasileiros. Manter os dados em um servidor localizado fisicamente no Brasil (São Paulo) simplifica enormemente a conformidade com a LGPD e evita as complexidades legais e os riscos de transferir e armazenar dados internacionalmente.
+
+
+**Conclusão Final:** Em um cenário real, a economia obtida com a hospedagem nos EUA não compensaria os riscos legais e o prejuízo de performance causado pela alta latência. Portanto, a **região de São Paulo é a única escolha viável e estratégica** para o projeto.
+
+
+---
+
+
+## 🔮 Vídeo da Entrega 2 no YouTube
+
+
+Confira a demonstração do uso da Calculadora AWS e a justificativa da escolha da região.
+
+
+*   **➡️ [Link para o vídeo da Entrega 2 (YouTube)]([URL_DO_SEU_SEGUNDO_VIDEO_AQUI])**
