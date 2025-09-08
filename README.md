@@ -79,9 +79,9 @@ A fase final consistiu em treinar 5 modelos para prever o `Yield`.
 -   **Divisão Treino-Teste:** Os dados foram divididos em 80% para treino e 20% para teste, garantindo uma avaliação justa.
 -   **Resultados:** Todos os modelos tiveram desempenho excepcional (R² > 0.99), devido à forte capacidade preditiva da variável `Crop`.
 
-#### 🏆 **Modelo Campeão:** **Floresta Aleatória (`RandomForestRegressor`)**
+#### **Modelo Campeão:** **Floresta Aleatória (`RandomForestRegressor`)**
 
-O modelo de Floresta Aleatória foi o vencedor, alcançando o maior **R² Score de 0.9938**, o que significa que ele explica **99.38%** da variação no rendimento da safra.
+O modelo de Regressão Linear foi o vencedor, alcançando o maior **R² Score de 0.9938**, o que significa que ele explica **99.38%** da variação no rendimento da safra.
 
 ![Tabela de Resultados](assets/resultados_modelos.jpeg)
 
