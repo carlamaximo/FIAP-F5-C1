@@ -185,4 +185,4 @@ Apesar do custo mais elevado, a escolha correta para este cenário de negócios 
 Confira a demonstração do uso da Calculadora AWS e a justificativa da escolha da região.
 
 
-*   **➡️ [Link para o vídeo da Entrega 2 (YouTube)](URL_DO_SEU_SEGUNDO_VIDEO_AQUI]](https://www.youtube.com/watch?v=yQMJAM5ASpY)**
+*   **➡️ [Link para o vídeo da Entrega 2 (YouTube)](https://www.youtube.com/watch?v=yQMJAM5ASpY)**
