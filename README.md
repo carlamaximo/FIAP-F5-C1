@@ -111,7 +111,7 @@ Para replicar esta análise, siga os passos:
 
 Confira a apresentação do projeto, com a explicação detalhada de cada etapa e dos resultados obtidos.
 
-*   **➡️ [Link para o vídeo (YouTube)]([https://www.youtube.com/watch?v=HJHWRCWvx00])**
+*   **➡️ [Link para o vídeo (YouTube)](https://www.youtube.com/watch?v=HJHWRCWvx00)**
 
 
 ---
@@ -185,4 +185,4 @@ Apesar do custo mais elevado, a escolha correta para este cenário de negócios 
 Confira a demonstração do uso da Calculadora AWS e a justificativa da escolha da região.
 
 
-*   **➡️ [Link para o vídeo da Entrega 2 (YouTube)]([URL_DO_SEU_SEGUNDO_VIDEO_AQUI])**
+*   **➡️ [Link para o vídeo da Entrega 2 (YouTube)](URL_DO_SEU_SEGUNDO_VIDEO_AQUI]](https://www.youtube.com/watch?v=yQMJAM5ASpY)**
