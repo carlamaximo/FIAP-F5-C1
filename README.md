@@ -175,6 +175,15 @@ Apesar do custo mais elevado, a escolha correta para este cenário de negócios 
 
 **Conclusão Final:** Em um cenário real, a economia obtida com a hospedagem nos EUA não compensaria os riscos legais e o prejuízo de performance causado pela alta latência. Portanto, a **região de São Paulo é a única escolha viável e estratégica** para o projeto.
 
+### Análise Avançada: Uma Proposta de Arquitetura Híbrida
+
+Apesar de a escolha para o cenário proposto ser São Paulo, uma arquitetura ainda mais otimizada em um projeto real seria uma solução híbrida. Nesta abordagem, poderíamos:
+
+1.  **Coletar e Armazenar os dados em São Paulo**, garantindo baixa latência e conformidade com a LGPD.
+2.  **Treinar o modelo de Machine Learning em N. Virgínia**, utilizando o poder computacional mais barato para a tarefa mais pesada, com dados anonimizados.
+3.  **Implantar a API de previsão de volta em São Paulo**, utilizando o modelo já treinado para fornecer respostas rápidas aos usuários no Brasil.
+
+Esta arquitetura combina o melhor dos dois mundos: performance e conformidade legal da região brasileira com a economia de custos da região americana, representando uma solução de nível profissional.
 
 ---
 
